@@ -1,0 +1,1 @@
+This is my second task at TechnoHacks EduTech. In this task i have created a count down timer which is initially set to zero. This timer features start, stop and reset functionality along with custom messages when the time runs out.
