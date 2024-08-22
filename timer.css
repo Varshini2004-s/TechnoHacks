@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0wW5KQvGI3oNQr_3uuP6cYERYbUAfe4_qiw&s);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.timer-container {
+    text-align: center;
+}
+
+#time-box {
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#time {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+}
+
+.controls button i {
+    pointer-events: none;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    color: white; /* Set text color to white */
+    font-size: 18px;
+    margin-top: 20px; /* Add space between timer and message */
+}
