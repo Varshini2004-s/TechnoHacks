@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webinar Registration</title>
+    <link rel="stylesheet" href="registerform.css">
+</head>
+<body>
+    <div class="registration-form">
+        <h2>Free Webinar Registration</h2>
+        <form id="webinarForm" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <small class="error-message" id="nameError"></small>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email id">
+                <small class="error-message" id="emailError"></small>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+                <small class="error-message" id="phoneError"></small>
+            </div>
+            <div class="form-group">
+                <label for="domain">Webinar Domain:</label>
+                <select id="domain" name="domain">
+                    <option value="">Select a domain</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="Artificial Intelligence">Artificial Intelligence</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="App Development">App Development</option>
+                    <option value="Cloud Computing">Cloud Computing</option>
+                    <option value="Open Source Technology">Open Source Technology</option>
+                    <option value="Data Science">Data Science</option>
+                </select>
+                <small class="error-message" id="domainError"></small>
+            </div>
+            <div class="form-group">
+                <label for="college">College Name:</label>
+                <input type="text" id="college" name="college" placeholder="Enter your college name">
+                <small class="error-message" id="collegeError"></small>
+            </div>
+            <div class="form-group">
+                <label for="degree">Degree:</label>
+                <input type="text" id="degree" name="degree" placeholder="Enter your degree">
+                <small class="error-message" id="degreeError"></small>
+            </div>
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+    <script src="registerform.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0 20px; /* Add padding to body for equal spaces on both sides */
+    background-image: url(https://cdn.vectorstock.com/i/500p/49/86/purple-light-on-black-background-creates-vector-51284986.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.registration-form {
+    background-color: rgba(0, 0, 0,0.15); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Increase the max-width for a more balanced look */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.registration-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center; /* Center the heading text */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%; /* Ensure all input fields and select dropdown are the same width */
+    padding: 10px; /* Increase padding for a more consistent look */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Adjust padding for a better button size */
+    background-color: #a130a5;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #e24be7;
+}
