@@ -1,0 +1,1 @@
+As a web development intern at TechnoHacks EduTech Official i have developed a responsive registration form for a free webinar using HTML, CSS and Java Script. It features a responsive layout , seamless input validation and clear error messages to guide users through the registration process.
